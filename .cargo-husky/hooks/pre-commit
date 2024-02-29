@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e
+
+echo "cargo clippy -- -D warnings"
+cargo clippy -- -D warnings
